@@ -42,7 +42,7 @@ for i in range(0, len(file_path_list)):
     total_codeword_table.extend(codeword_table[0])
 
     # Input the codewords into a new file
-    with open('./codeword_table', 'a') as f:
+    with open('./codeword.txt', 'a') as f:
         output_dict = {0: "A", 1: "T", 2: "G", 3: "C"}
         for t in range(len(codeword_table[0])):
             dna_str = 'CCACGCGTACCGATAGCTTCAG'  # Primer
